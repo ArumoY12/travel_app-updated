@@ -1,0 +1,56 @@
+:root{
+    --primaryColor:hsl(198,100%,33%);
+    --secondaryColor:hsl(187,85%,43%);
+    --gradientColor: linear-graddient(to right,hsl(198,100%,33%),hsl(199,100%,33%));
+    --whiteColor: hsl(0,0%,100%);
+    --blackColor: hsl(201,33%,16%);
+    --textColor: hsl(240,4%,36%);
+    --whiteColorDeam: hsl(0,0%,93%);
+    --greyText: rgb(190,190,190);
+    --inputColor: rgb(239,239,239);
+    --bodyColor: rgb(240,240,246);
+    --cardBG: rgb(225,225,235);
+}
+.hero{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.textdiv{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+.textdiv h1{
+font-size: 3rem;
+font-weight: 800;
+background: var(--whiteColor);
+-webkit-background-clip:text;
+-webkit-text-fill-color: transparent;
+}
+.textdiv p{
+font-size: 1rem;
+color: var(--whiteColor);
+padding: 0.5rem 0 2rem 7rem;
+}
+@media screen and (width<392px) {
+    .vsize{
+        padding: 0;
+        margin: 0,0.4rem;
+        width: 100%; 
+    }
+    .textdiv h1{
+        font-size: 1rem;
+    }
+    }
+@media screen and (width>392px) {
+        .vsize{
+        padding: 0;
+        margin: 0,0.1rem;
+        width: 100%; 
+    }
+    .textdiv h1{
+        font-size: 2rem;
+    }
+    }

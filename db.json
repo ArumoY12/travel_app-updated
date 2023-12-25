@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "Name": "Gautam Gambhir",
+      "Email": "gg@gmail.com",
+      "Password": "1234567",
+      "Cpassword": "1234567",
+      "id": 1
+    },
+    {
+      "Name": "Souvik Karmakar",
+      "Email": "sovik@12gmail.com",
+      "Password": "Souvik@123",
+      "Cpassword": "Souvik@123",
+      "id": 2
+    },
+    {
+      "Name": "Utasab",
+      "Email": "utsab@hotmail.in",
+      "Password": "utsab@123",
+      "Cpassword": "utsab@123",
+      "id": 3
+    }
+  ],
+  "contacts": [
+    
+  ]
+}

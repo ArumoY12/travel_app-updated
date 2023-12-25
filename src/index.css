@@ -1,0 +1,13 @@
+.navbar{
+  background-color: #fff !important;
+}
+.navbar a:hover{
+  color: blue;
+}
+.nav-link{
+  font-weight: bold;
+}
+*{
+  margin:0;
+  padding:0;
+}

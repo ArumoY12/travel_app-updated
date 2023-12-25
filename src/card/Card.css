@@ -1,0 +1,53 @@
+.cardpos{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 6rem;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* margin: 4rem 3rem 0 3rem; */
+    width: 30%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1% 1%;
+    box-shadow: 8px 8px 8px;
+}
+.cardimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    margin-bottom: 0.2rem;
+    transition: 0.3s ease-in-out;
+}
+.cardimg img{
+    height: 150px;
+}
+.cardimg:hover img{
+    transform:scale(1.2)
+}
+.card1 paragraph{
+    width: 200%;
+    height: 70%;
+}
+@media screen and (max-width:830px) {
+.cardpos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem 1.5rem;
+}
+.card{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+}
+@media screen and (max-width: 392px){
+.cardpos {
+    width: 90%;
+    padding-right: 1rem;
+}
+}
+

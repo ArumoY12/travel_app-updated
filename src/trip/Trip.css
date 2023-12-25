@@ -1,0 +1,132 @@
+:root{
+    --primaryColor:hsl(198,100%,33%);
+    --secondaryColor:hsl(187,85%,43%);
+    --gradientColor: linear-graddient(to right,hsl(198,100%,33%),hsl(199,100%,33%));
+    --whiteColor: hsl(0,0%,100%);
+    --blackColor: hsl(201,33%,16%);
+    --textColor: hsl(240,4%,36%);
+    --whiteColorDeam: hsl(0,0%,93%);
+    --greyText: rgb(190,190,190);
+    --inputColor: rgb(239,239,239);
+    --bodyColor: rgb(240,240,246);
+    --cardBG: rgb(225,225,235);
+}
+.hero{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.destinations{
+    margin: 1rem 0rem;
+    text-align: center;
+    }
+.destinations h1{
+    font-size: 3rem;
+}
+.desp{
+    margin: 4rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.despo{
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+.despo h5{
+    font-weight: 10;
+}
+.despo h2{
+    font-weight:100;
+    color: brown;
+}
+.desp10{
+    margin: 4rem 6rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+.image img{
+        width: 49%;
+        height: 340px;
+        object-fit: cover;
+        border-radius: 6px;
+}
+.image img:nth-child(1){
+        position: absolute;
+        top: -8%;
+        right: 0;
+}
+@media screen and (max-width:830px) {
+    .destinations{
+        margin-top: 1rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .desp{
+        margin: 2rem;
+        padding: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .desp10{
+        margin: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .image{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: -99;
+        }
+        .despo{
+            margin: 2rem 1rem;
+            width: 100%;
+            font-size: 0.7rem;
+        }
+ @media screen and (width < 392px){
+            .desp{
+            margin: 1rem;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column-reverse;
+            width: 95% 
+        }
+            .desp10{
+            margin: auto;
+            display: flex;
+            flex-direction: column-reverse; 
+            padding: 1rem;
+            width: 95%;
+            }
+            .despo h5{
+                font-size: small;
+            }
+        }
+ @media screen and (max-width:610px){
+            .destinations{
+                margin: 0.5rem;
+                font-size: 0.7rem;
+            }
+            .destinations h1{
+                font-size: 1.7rem;
+            }
+            .image img:nth-child(1){
+                position: absolute;
+                top: 0;
+                right: 0;
+            } 
+        }
+}
+
