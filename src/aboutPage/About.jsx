@@ -1,6 +1,6 @@
 import React from "react";
 import about from './Image/about.jpg';
-import './about.css';
+import './About.css';
 import Footer from "../footer/Footer";
 const About=()=>
 {
